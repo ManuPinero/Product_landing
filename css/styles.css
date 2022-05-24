@@ -1,0 +1,12 @@
+body {
+    background-color:#42C2FF ;
+}
+
+.container {
+    width: 90%;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    padding: 2rem;
+}
