@@ -1,12 +1,78 @@
 body {
-    background-color:#42C2FF ;
+    background:linear-gradient(90deg, #10b3fe, #90dcff);
 }
 
 .container {
-    width: 90%;
-    background-color: aliceblue;
+    width: 85%;
+    background: linear-gradient(90deg, #b1f0f9, #90f6ea);
     text-align: center;
-    border: 1px solid black;
-    margin: auto;
+    margin: 5% auto;
     padding: 2rem;
+    border-radius: 25px;
+    position:relative;
+}
+.logoimg{
+    width: 2.2rem;
+    position: absolute; 
+    left: 2.5rem;
+}
+
+.logotext {
+    position: absolute;
+    font-family: "barlow Condensed";
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: -0.2rem;
+    color: #04abf8;
+    margin: 0;
+    left: 5rem;
+    top: 1.2rem
+}
+
+#navbar {
+    display: inline-block;
+    padding-left: 16.6rem;
+}
+
+.nav-link {
+    display: inline-block;
+    width: 5rem;
+    margin: 0;
+    font-family:"lato";
+    color: #2ab7f8;
+}
+
+.contdesc{
+width: 30rem;
+text-align: left;
+margin-bottom: 3rem ;
+}
+
+.description{
+    font-family: "barlow Condensed";
+    font-size: 10rem;
+    font-weight: 400;
+    letter-spacing: -0.2rem;
+    line-height: 8rem;
+    color: #ffffff;
+    margin:0;
+    padding: 6rem 0 0 2.5rem;  
+}
+
+.posvideo {
+    display: inline-block;
+    position: relative;
+    width:470px; 
+    height: 300px;
+    background-color: white;
+    bottom: 25rem;
+    left: 16rem;
+    border-radius: 10px;
+}
+
+#video {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 0.55rem;
 }
