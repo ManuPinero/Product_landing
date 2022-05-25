@@ -1,6 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body {
     margin:0
 }
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 
 .container {
     width: 100%;
@@ -10,44 +25,48 @@ body {
 
 /* Header */
 
-.fixednav{
-    display: block;
+header{
+    display: flex;
     position: fixed;
     height: 4rem;
-    width:98%;
-    background-color: #effffd9d;
-    border-radius: 25px;
-    top: 1%;
-    left: 1%;
-    z-index: 1;
+    background: white;
+    /* background: linear-gradient(90deg, #b1f0f9, #90f6ea); */
+    top: 0;
+    min-height: 3rem;
+    justify-content: space-around;
 }
 
 .logoimg{
-    width: 2.2rem;
-    display: inline-block;
-    padding-left: 2.2rem;
-    margin: 0;
+    width: 55%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
 }
 
 .logotext {
-    display: inline-block;
     font-family: "barlow Condensed";
     font-weight: 400;
     font-size: 3rem;
     letter-spacing: -0.2rem;
     color: #04abf8;
-    margin: 0;
-}
-
-#navbar {
-    display: inline-block;
-    padding-left: 35rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding-left: 1rem;
+    padding-right: 40rem;
 }
 
-.nav-link {
-    display: inline-block;
-    width: 6rem;
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
     font-family:"lato";
     color: #0071B2;
     text-decoration: none;
@@ -55,10 +74,6 @@ body {
 
 .nav-link:hover{
     color: #00588b;
-}
-
-.navpadd {
-    padding-left: 1rem;
 }
 
 /* ----------------------Header--------------------------- */
