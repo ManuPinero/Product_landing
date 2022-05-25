@@ -1,48 +1,56 @@
 body {
-    background:linear-gradient(90deg, #10b3fe, #90dcff);
+    margin:0
 }
 
 .container {
-    width: 85%;
-    max-width: 1400px;
+    width: 100%;
     background: linear-gradient(90deg, #b1f0f9, #90f6ea);
-    text-align: center;
-    margin: 5% auto;
-    padding: 2rem;
-    border-radius: 25px;
-    position:relative;
+    margin: 0;
 }
+
+/* Header */
+
+.fixednav{
+    display: block;
+    position: fixed;
+    height: 4rem;
+    width:98%;
+    background-color: #effffd9d;
+    border-radius: 25px;
+    top: 1%;
+    left: 1%;
+    z-index: 1;
+}
+
 .logoimg{
     width: 2.2rem;
-    position: absolute; 
-    left: 2.5rem;
+    display: inline-block;
+    padding-left: 2.2rem;
+    margin: 0;
 }
 
 .logotext {
-    position: absolute;
+    display: inline-block;
     font-family: "barlow Condensed";
     font-weight: 400;
     font-size: 3rem;
     letter-spacing: -0.2rem;
     color: #04abf8;
     margin: 0;
-    left: 5rem;
-    top: 1.2rem
 }
 
 #navbar {
     display: inline-block;
-    padding-left: 20.5rem;
+    padding-left: 35rem;
+    text-align: center;
 }
 
 .nav-link {
     display: inline-block;
-    width: 5rem;
-    margin: 0;
+    width: 6rem;
     font-family:"lato";
     color: #0071B2;
     text-decoration: none;
-    padding-right: 1.1rem;
 }
 
 .nav-link:hover{
@@ -53,10 +61,22 @@ body {
     padding-left: 1rem;
 }
 
+/* ----------------------Header--------------------------- */
+
+/* ---------------------Content--------------------------- */
+.content{
+    display: flex;
+    position: relative;
+    width: auto;
+    max-width: 1400px;
+    text-align: center;
+    padding-top: 5rem;
+}
+
 .contdesc{
     width: 30rem;
     text-align: left;
-    margin-bottom: 3rem ;
+    padding: 9rem 0 0 5rem;
 }
 
 .description{
@@ -67,12 +87,10 @@ body {
     line-height: 8rem;
     color: #ffffff;
     margin:0;
-    padding: 6rem 0 0 2.5rem;  
 }
 
 .posvideo {
     display: inline-block;
-    position: relative;
     width:470px; 
     height: 300px;
     background-color: #FFF;
@@ -82,7 +100,6 @@ body {
 }
 
 #video {
-    position: relative;
     border: 1px solid white;
     border-radius: 10px;
     margin-top: 0.55rem;
@@ -90,7 +107,6 @@ body {
 
 .pstyle {
     display: inline-block;
-    position: absolute;
     width: 35%;
     font-family:"lato";
     font-weight: 3rem;
